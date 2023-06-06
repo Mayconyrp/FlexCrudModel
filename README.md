@@ -6,12 +6,10 @@ Além disso, o sistema permite a visualização dos depoimentos já cadastrados,
 
 O código foi desenvolvido seguindo as melhores práticas, utilizando o framework Express, reconhecido por sua confiabilidade e modernidade. Isso assegura a qualidade e a confiabilidade da aplicação.
 
-Por trás das funcionalidades apresentadas, há uma estrutura de código bem organizada, seguindo o padrão MVC. Essa abordagem modular facilita a manutenção e a expansão do sistema no futuro. A arquitetura também permite que a equipe de desenvolvimento implemente melhorias e atualizações de forma ágil.
-
 Em resumo, essa aplicação é uma ferramenta poderosa para coleta e gerenciamento de depoimentos, oferecendo uma solução confiável e eficiente em diferentes contextos.
 
 Notas Técnicas:
-Este código é uma aplicação back-end que utiliza o framework Express para criar uma API reutilizável. Ele possui uma arquitetura seguindo o padrão MVC (Model-View-Controller), que organiza o código de forma modular e separa as responsabilidades em três componentes principais.
+Este código é uma aplicação back-end que utiliza o framework Express para criar uma API reutilizável.
 
 Na importação das dependências, utilizamos o Express, um framework web para construir aplicativos Node.js, e o Cors, um middleware para habilitar o compartilhamento de recursos entre diferentes origens.
 
@@ -23,7 +21,6 @@ Para implementar as operações CRUD, definimos os controladores das rotas. Util
 
 Por fim, configuramos o servidor utilizando o método "app.listen" para iniciar o servidor na porta 8080.
 
-A adoção do padrão MVC traz vantagens significativas, como a organização e reutilização de código, facilitando o desenvolvimento de projetos reutilizáveis, escaláveis e de fácil manutenção. Além disso, essa arquitetura permite uma melhor separação das preocupações, melhorando a escalabilidade e flexibilidade da aplicação.
 
 
 
